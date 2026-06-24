@@ -7,6 +7,8 @@ or paste `GestureReproApp.swift` into a new Xcode macOS App. Events also log to 
 
 Title: SwiftUI DragGesture is permanently cancelled (no terminal onEnded) by a trackpad magnify on macOS
 
+<video src="https://github.com/mesqueeb/Swiftui-Gesture-Detection-Failures/raw/main/reproduction.mp4" controls></video>
+
 While a SwiftUI DragGesture is held (trackpad click-drag), a two-finger magnify (trackpad pinch) permanently cancels it:
 
 - onChanged stops firing the instant the magnify is recognized.
